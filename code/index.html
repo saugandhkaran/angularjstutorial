@@ -35,12 +35,9 @@
       <!-- Main controller start -->
       <div class="" ng-controller="mainController">
             <h2>Breeds</h2>
-            <ul class="list-group">
-                <li class="list-group-item">Akita</li>
-                <li class="list-group-item">Bull Terrier</li>
-                <li class="list-group-item">Briard</li>
-                <li class="list-group-item">Bulldog</li>
-                <li class="list-group-item">Kelpie</li>
+            {{dogBreeds}}
+            <ul class="list-group" ng-repeat="(key,value) in dogBreeds.message">
+                <li class="list-group-item">{{key}}</li>
             </ul>
       </div>
       <!-- Main controller end -->
