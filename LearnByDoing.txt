@@ -1,0 +1,9 @@
+Create a frontend using the DOG API. 
+The frontend should have following features:
+1.	Menu bar with two options : List All Dogs, Search Dogs
+2.	List All Dogs should be the default landing page
+3.	List All Dogs should list all the breeds of dogs. The below api can be used. If there are any subdivisions of the breed they should also be mentioned: https://dog.ceo/api/breeds/list/all
+4.	On click of the dog breed, the images for that breed should be shown. The below api can be used for it:
+https://dog.ceo/api/breed/{your breed}/images
+
+5.	You can go through this https://dog.ceo/dog-api/documentation/ for further clarifications on how the api works.

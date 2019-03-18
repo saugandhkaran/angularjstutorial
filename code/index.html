@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Dog App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="custom.css">
+    <script src="app.js"></script>
+</head>
+<body ng-app="dogApp">
+    <!-- Navigation bar start -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" ng-controller="headerController">
+        <a class="navbar-brand" href="#">{{myName}}'s Dog App</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">All dogs <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Gallery</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- Navigation bar end -->
+
+      <!-- Main controller start -->
+      <div class="" ng-controller="mainController">
+            <h2>Breeds</h2>
+            <ul class="list-group">
+                <li class="list-group-item">Akita</li>
+                <li class="list-group-item">Bull Terrier</li>
+                <li class="list-group-item">Briard</li>
+                <li class="list-group-item">Bulldog</li>
+                <li class="list-group-item">Kelpie</li>
+            </ul>
+      </div>
+      <!-- Main controller end -->
+      
+</body>
+</html>
